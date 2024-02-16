@@ -1,0 +1,3 @@
+[submodule "piper_phonemize"]
+	path = piper_phonemize
+	url = https://github.com/rhasspy/piper-phonemize.git

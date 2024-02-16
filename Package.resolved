@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "espeak-ng-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IhorShevchuk/espeak-ng-spm",
+      "state" : {
+        "revision" : "15b87671e3c7486b6a4404f997b1ae59a7eae441",
+        "version" : "2023.9.13"
+      }
+    },
+    {
+      "identity" : "onnxruntime-swift-package-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/onnxruntime-swift-package-manager",
+      "state" : {
+        "revision" : "18e053d3442bea0848491c0363c170741693c2c1",
+        "version" : "1.16.0"
+      }
+    }
+  ],
+  "version" : 2
+}
