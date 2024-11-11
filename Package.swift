@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let onnxruntimeVersionString = "1.16.0"
+let onnxruntimeVersionString = "1.19.2"
 let onnxruntimeVersion = Version(onnxruntimeVersionString)!
 
 let package = Package(
