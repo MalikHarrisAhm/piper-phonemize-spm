@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/IhorShevchuk/espeak-ng-spm",
                  "2023.9.13"..."2023.9.13"), /// Uses 0f65aa301e0d6bae5e172cc74197d32a6182200f version of espeak-ng from https://github.com/rhasspy/espeak-ng that is mentioned in piper-phonemize/CMakeLists.txt
-        .package(url: "https://github.com/microsoft/onnxruntime-swift-package-manager", onnxruntimeVersion...onnxruntimeVersion)
+        .package(url: "https://github.com/MalikHarrisAhm/onnxruntime-swift-package-manager", onnxruntimeVersion...onnxruntimeVersion)
     ],
     targets: [
         .target(name: "piper_phonemize",
